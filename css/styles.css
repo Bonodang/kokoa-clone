@@ -9,6 +9,9 @@
 @import "screen/find.css";
 @import "screen/icon-raw.css";
 @import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+
 
 /*component*/
 @import "component/nav-bar.css";
@@ -16,6 +19,7 @@
 @import "component/status-bar.css";
 @import "component/user-component.css";
 @import "component/badge.css";
+@import "component/alt-screen-header.css";
 
 
 body{
