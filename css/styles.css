@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 
 @import "variables.css";
@@ -12,7 +11,6 @@
 @import "screen/settings.css";
 @import "screen/chat.css";
 
-
 /*component*/
 @import "component/nav-bar.css";
 @import "component/screen-header.css";
@@ -20,12 +18,11 @@
 @import "component/user-component.css";
 @import "component/badge.css";
 @import "component/alt-screen-header.css";
-
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    color: #2e363e;
+@import "component/no-mobile.css";
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #2e363e;
 }
-.main-screen{
-    padding: 0px var(--horizontal-space);
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
